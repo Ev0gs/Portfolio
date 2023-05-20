@@ -1,3 +1,4 @@
-Bulles de compétences bougent pas ou bizarrement ?!
-Modifier Feedbacks ? => Rien pour le moment
-Ajouter mode jour/nuit
+(FAIT) - Déployer le site sur GitHub Pages
+(A FAIRE) - Bulles de compétences bougent pas ou bizarrement ?!
+(A FAIRE) - Ajouter mode jour/nuit
+(A FAIRE) - Modifier l'image du projet portfolio et le mettre en premier

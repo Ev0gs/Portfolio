@@ -2,3 +2,6 @@
 (A FAIRE) - Bulles de compétences bougent pas ou bizarrement ?!
 (A FAIRE) - Ajouter mode jour/nuit
 (A FAIRE) - Modifier l'image du projet portfolio et le mettre en premier
+(A FAIRE) - Modifier le modèle 3D ?
+(A FAIRE) - Opti les mesh 3D pour affichage et intéraction fluide sur tel et ordi
+(A FAIRE) - Modifier technologies pour afficher le nom en dessous des bulles

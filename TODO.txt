@@ -1,0 +1,3 @@
+Bulles de compétences bougent pas ou bizarrement ?!
+Modifier Feedbacks ? => Rien pour le moment
+Ajouter mode jour/nuit

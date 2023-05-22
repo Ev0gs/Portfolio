@@ -76,7 +76,7 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Networks</p>
         <a href="https://www.linkedin.com/in/pierre-latorse-968242171/">
           <button class="flex items-center justify-center bg-white hover:bg-slate-300 text-white font-bold py-2 px-4 rounded mt-5">
-            <img src="src/assets/linkedin.png" alt="Image du bouton" class="w-7 h-7" />
+            <img src="linkedin.png" alt="Image du bouton" class="w-7 h-7" />
           </button>
         </a>
         <hr class="border-t border-gray-600 mt-10 mb-10"></hr>

@@ -86,7 +86,7 @@ const About = () => {
       </motion.p>
 
       <motion.div variants={textVariant()}>
-        <a href="./src/assets/Resume.pdf">
+        <a href="Resume.pdf">
           <button class="flex items-center justify-center bg-violet-800 hover:bg-violet-950 text-white font-bold py-2 px-4 rounded mt-5">
             <p>See my Resume here !</p>
           </button>

@@ -72,13 +72,19 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-
-        <form
+        <p className={styles.sectionSubText}>Networks</p>
+        <a href="https://www.linkedin.com/in/pierre-latorse-968242171/">
+          <button class="flex items-center justify-center bg-white hover:bg-slate-300 text-white font-bold py-2 px-4 rounded mt-5">
+            <img src="src/assets/linkedin.png" alt="Image du bouton" class="w-7 h-7" />
+          </button>
+        </a>
+        <hr class="border-t border-gray-600 mt-10 mb-10"></hr>
+        <p className={styles.sectionSubText}>Get in touch</p>
+        <form0
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
+          className='mt-10 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
@@ -116,11 +122,11 @@ const Contact = () => {
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-blue-500 py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
           </button>
-        </form>
+        </form0>
       </motion.div>
 
       <motion.div

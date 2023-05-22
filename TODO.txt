@@ -1,7 +1,14 @@
 (FAIT) - Déployer le site sur GitHub Pages
 (A FAIRE) - Bulles de compétences bougent pas ou bizarrement ?!
-(A FAIRE) - Ajouter mode jour/nuit
-(A FAIRE) - Modifier l'image du projet portfolio et le mettre en premier
-(A FAIRE) - Modifier le modèle 3D ?
+(A FAIRE ?) - Ajouter mode jour/nuit ??????????????????????????????
+(FAIT) - Modifier l'image du projet portfolio et le mettre en premier
+(FAIT) - Modifier le modèle 3D ?
 (A FAIRE) - Opti les mesh 3D pour affichage et intéraction fluide sur tel et ordi
-(A FAIRE) - Modifier technologies pour afficher le nom en dessous des bulles
+(FAIT) - Modifier technologies pour afficher le nom en dessous des bulles
+(FAIT) - Modifier feedbacks
+(FAIT) - Modifier icone page du site
+(FAIT) - Modifier titre de statut dans navbar => IT developer ??????
+(A FAIRE) - Récupérer repository stage Scissors
+(FAIT) - Ajouter bouton linkedin
+(FAIT) - Ajouter mon CV
+(FAIT) - Ajouter Hobbies (description dans cartes)

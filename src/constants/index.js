@@ -35,6 +35,10 @@ import {
     vuejs,
     htmlcssjs,
     clanguages,
+    portfolio,
+    videogames,
+    music,
+    climbing,
   } from "../assets";
   
   export const navLinks = [
@@ -70,6 +74,24 @@ import {
       icon: softwaredev,
     },
   ];
+
+  const hobbies = [
+    {
+      title: "Video games",
+      description: "Love playing video games as well as creating them.",
+      icon: videogames,
+    },
+    {
+      title: "Music",
+      description: "I have been learning how to play bass by myself for 5 years.",
+      icon: music,
+    },
+    {
+      title: "Sport",
+      description: "I practiced Fencing and Rifle Shooting for 6 years each at a national level. Since 2020, I practice boulder climbing.",
+      icon: climbing,
+    },
+  ]
   
   const technologies = [
     {
@@ -173,31 +195,44 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "Pierre developed a talent for understanding what a game is all about. Either technically, humanly, financially or from a game design point of view. I have complete confidence in him for the position of video game developer or the position of IT engineer.",
+      name: "Benjamin Coudannes",
       designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      company: "Scissors In The Plug",
+      image: sitp,
+    },
+    {
+      testimonial:
+        "Serious, punctual and endowed with a team spirit facilitating his integration within the team, these qualities testify to his voluntary attitude and allow him to adopt new working methods with ease.",
+      name: "Olivier Delbosc",
+      designation: "Integration Engineer",
+      company: "Bordeaux Métropole",
+      image: bordeaux,
     },
   ];
   
   const projects = [
+    {
+      name: "Portfolio website",
+      description:
+        "A website working as a portfolio to show my skills in web development as well as video game development with some 3D models integration with Three JS.",
+      tags: [
+        {
+          name: "Vite",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vite JS & React JS & Three JS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/Ev0gs/Portfolio",
+    },
     {
       name: "Daimonion",
       description:
@@ -387,27 +422,6 @@ import {
       image: inventory,
       source_code_link: "https://github.com/Ev0gs/OOP-Project",
     },
-    {
-      name: "Portfolio website",
-      description:
-        "A website working as a portfolio to show my skills in web development as well as video game development with some 3D models integration with Three JS.",
-      tags: [
-        {
-          name: "Vite",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Vite JS & React JS & Three JS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: daimonion,
-      source_code_link: "https://github.com/GameDevsTeam/Daimonion_Project",
-    },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, hobbies, technologies, experiences, testimonials, projects };

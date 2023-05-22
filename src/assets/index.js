@@ -14,6 +14,11 @@ import vr from "./about/VR.png";
 import webdev from "./about/WebDeveloper.png";
 import softwaredev from "./about/SoftwareDeveloper.png";
 
+// Hobbies
+import videogames from "./hobbie/videogames.png";
+import music from "./hobbie/bass.png";
+import climbing from "./hobbie/climbing.png";
+
 // Tech
 import unity from "./tech/Unity.png";
 import unreal from "./tech/UnrealEngine.png";
@@ -43,6 +48,7 @@ import bordeaux from "./company/BordeauxMetropole.png";
 import kalivitis from "./company/Kalivitis.png";
 
 // Project
+import portfolio from "./project/Portfolio.png"
 import daimonion from "./project/Daimonion.png";
 import archiviz from "./project/Archiviz.png";
 import will from "./project/Will.png";
@@ -66,6 +72,9 @@ export {
   vr,
   webdev,
   softwaredev,
+  videogames,
+  music,
+  climbing,
   unity,
   unreal,
   clanguages,
@@ -90,6 +99,7 @@ export {
   sitp,
   bordeaux,
   kalivitis,
+  portfolio,
   daimonion,
   archiviz,
   will,

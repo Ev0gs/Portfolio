@@ -387,7 +387,6 @@ import {
         },
       ],
       image: findux,
-      icon : github,
       source_code_link: "https://github.com/",
     },
     {

@@ -39,6 +39,8 @@ import {
     videogames,
     music,
     climbing,
+    gitlab,
+    github,
   } from "../assets";
   
   export const navLinks = [
@@ -231,6 +233,7 @@ import {
         },
       ],
       image: portfolio,
+      icon : github,
       source_code_link: "https://github.com/Ev0gs/Portfolio",
     },
     {
@@ -252,6 +255,7 @@ import {
         },
       ],
       image: daimonion,
+      icon : github,
       source_code_link: "https://github.com/GameDevsTeam/Daimonion_Project",
     },
     {
@@ -273,7 +277,8 @@ import {
         },
       ],
       image: archiviz,
-      source_code_link: "https://github.com/",
+      icon : gitlab,
+      source_code_link: "https://gitlab.com/Ev0gs/archiviz-vr",
     },
     {
       name: "Will.exe",
@@ -294,7 +299,8 @@ import {
         },
       ],
       image: will,
-      source_code_link: "https://github.com/",
+      icon : gitlab,
+      source_code_link: "https://gitlab.com/Ev0gs/will.exe",
     },
     {
       name: "La Grosse Bertha",
@@ -315,7 +321,8 @@ import {
         },
       ],
       image: bertha,
-      source_code_link: "https://github.com/",
+      icon : gitlab,
+      source_code_link: "https://gitlab.com/Ev0gs/LaGrosseBertha",
     },
     {
       name: "Protech Securité",
@@ -336,7 +343,8 @@ import {
         },
       ],
       image: protech,
-      source_code_link: "https://github.com/",
+      icon : gitlab,
+      source_code_link: "https://gitlab.com/Ev0gs/protech-securite",
     },
     {
       name: "Platformer Project",
@@ -357,6 +365,7 @@ import {
         },
       ],
       image: platformer,
+      icon : github,
       source_code_link: "https://github.com/Ev0gs/Unity-FirstPlatformer",
     },
     {
@@ -378,6 +387,7 @@ import {
         },
       ],
       image: findux,
+      icon : github,
       source_code_link: "https://github.com/",
     },
     {
@@ -399,6 +409,7 @@ import {
         },
       ],
       image: nternship,
+      icon : github,
       source_code_link: "https://github.com/Ev0gs/Nternship",
     },
     {
@@ -420,6 +431,7 @@ import {
         },
       ],
       image: inventory,
+      icon : github,
       source_code_link: "https://github.com/Ev0gs/OOP-Project",
     },
   ];

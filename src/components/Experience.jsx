@@ -12,7 +12,10 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
-const ExperienceCard = ({ experience }) => {
+import { useTranslation } from 'react-i18next';
+
+
+const ExperienceCard = ({ experience, t }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -20,25 +23,25 @@ const ExperienceCard = ({ experience }) => {
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
-      date={experience.date}
+      date={t(experience.dateKey)}
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className='flex justify-center items-center w-full h-full'>
           <img
             src={experience.icon}
-            alt={experience.company_name}
+            alt={t(experience.company_nameKey)}
             className='w-[60%] h-[60%] object-contain'
           />
         </div>
       }
     >
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
+        <h3 className='text-white text-[24px] font-bold'>{t(experience.titleKey)}</h3>
         <p
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}
         >
-          {experience.company_name}
+          {t(experience.company_nameKey)}
         </p>
       </div>
 
@@ -48,7 +51,7 @@ const ExperienceCard = ({ experience }) => {
             key={`experience-point-${index}`}
             className='text-white-100 text-[14px] pl-1 tracking-wider'
           >
-            {point}
+            {t(point)}
           </li>
         ))}
       </ul>
@@ -57,6 +60,8 @@ const ExperienceCard = ({ experience }) => {
 };
 
 const Experience = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -74,6 +79,7 @@ const Experience = () => {
             <ExperienceCard
               key={`experience-${index}`}
               experience={experience}
+              t = {t}
             />
           ))}
         </VerticalTimeline>

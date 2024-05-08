@@ -7,6 +7,9 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import { useTranslation } from 'react-i18next';
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -30,6 +33,8 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+    
+
     
     emailjs
       .send(
@@ -64,6 +69,8 @@ const Contact = () => {
       );
   };
 
+  const { t } = useTranslation();
+  
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
@@ -72,50 +79,50 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
-        <p className={styles.sectionSubText}>Networks</p>
-        <a href="https://www.linkedin.com/in/pierre-latorse-968242171/">
+        <h3 className={styles.sectionHeadText}>{t('Contact.')}</h3>
+        <p className={styles.sectionSubText}>{t('Networks')}</p>
+        <a href="https://www.linkedin.com/in/pierre-latorse-968242171/" target="_blank">
           <button class="flex items-center justify-center bg-white hover:bg-slate-300 text-white font-bold py-2 px-4 rounded mt-5">
             <img src="linkedin.png" alt="Image du bouton" class="w-7 h-7" />
           </button>
         </a>
         <hr class="border-t border-gray-600 mt-10 mb-10"></hr>
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={styles.sectionSubText}>{t('Get in touch')}</p>
         <form0
           ref={formRef}
           onSubmit={handleSubmit}
           className='mt-10 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
+            <span className='text-white font-medium mb-4'>{t('Your Name')}</span>
             <input
               type='text'
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder={t("What's your good name?")}
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your email</span>
+            <span className='text-white font-medium mb-4'>{t('Your email')}</span>
             <input
               type='email'
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder={t("What's your email?")}
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Message</span>
+            <span className='text-white font-medium mb-4'>{t('Your Message')}</span>
             <textarea
               rows={7}
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder={t("What you want to say?")}
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -124,7 +131,7 @@ const Contact = () => {
             type='submit'
             className='bg-blue-500 py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
-            {loading ? "Sending..." : "Send"}
+            {loading ? t("Send-Btn-Text-Sending") : t("Send-Btn-Text")}
           </button>
         </form0>
       </motion.div>

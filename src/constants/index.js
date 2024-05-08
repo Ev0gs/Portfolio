@@ -11,11 +11,13 @@ import {
     git,
     figma,
     docker,
+    curvaturegames,
     sitp,
     bordeaux,
     kalivitis,
     threejs,
-    daimonion,
+    daimon,
+    VirtualLab,
     archiviz,
     will,
     bertha,
@@ -43,54 +45,61 @@ import {
     github,
   } from "../assets";
   
+  // // Translation system
+  // import { useTranslation } from 'react-i18next';
+
+  // const { t } = useTranslation();
+  // // END //
+
+
   export const navLinks = [
     {
       id: "about",
-      title: "About",
+      titleKey: "NavLinks-About",
     },
     {
       id: "work",
-      title: "Work",
+      titleKey: "NavLinks-Work",
     },
     {
       id: "contact",
-      title: "Contact",
+      titleKey: "NavLinks-Contact",
     },
   ];
   
   const services = [
     {
-      title: "Video Game Developer",
+      titleKey: "Services-GameDev",
       icon: videogamedev,
     },
     {
-      title: "VR Developer",
+      titleKey: "Services-VRGameDev",
       icon: vr,
     },
     {
-      title: "Web Developer",
+      titleKey: "Services-WebDev",
       icon: webdev,
     },
     {
-      title: "Software Developer",
+      titleKey: "Services-SoftwareDev",
       icon: softwaredev,
     },
   ];
 
   const hobbies = [
     {
-      title: "Video games",
-      description: "Love playing video games as well as creating them.",
+      titleKey: "Hobbies-VideoGames-title",
+      descriptionKey: "Hobbies-VideoGames-content",
       icon: videogames,
     },
     {
-      title: "Music",
-      description: "I have been learning how to play bass by myself for 5 years.",
+      titleKey: "Hobbies-Music-title",
+      descriptionKey: "Hobbies-Music-content",
       icon: music,
     },
     {
-      title: "Sport",
-      description: "I practiced Fencing and Rifle Shooting for 6 years each at a national level. Since 2020, I practice boulder climbing.",
+      titleKey: "Hobbies-Sports-title",
+      descriptionKey: "Hobbies-Sports-content",
       icon: climbing,
     },
   ]
@@ -152,72 +161,137 @@ import {
   
   const experiences = [
     {
-      title: "Video Game Developer Intern",
-      company_name: "Scissors In The Plug",
+      titleKey: "Experiences-CurvatureGames-title",
+      company_nameKey: "Experiences-CurvatureGames-company",
+      icon: curvaturegames,
+      iconBg: "#E6DEDD",
+      dateKey: "Experiences-CurvatureGames-date",
+      points: [
+        "Experiences-CurvatureGames-1st-point",
+        "Experiences-CurvatureGames-2nd-point",
+        "Experiences-CurvatureGames-3rd-point",
+        "Experiences-CurvatureGames-4th-point",
+      ],
+    },
+    {
+      titleKey: "Experiences-Scissors-title",
+      company_nameKey: "Experiences-Scissors-company",
       icon: sitp,
       iconBg: "#383E56",
-      date: "Jan 2023 - April 2023",
+      dateKey: "Experiences-Scissors-date",
       points: [
-        "Developing and maintaining 2D, 3D as well as VR video games on multiple engines such as Unity and Unreal Engine 5.1.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing main gameplay mechanics, and optimizing for target devices via Profiler.",
-        "Participating in preproduction, production and postproduction.",
+        "Experiences-Scissors-1st-point",
+        "Experiences-Scissors-2nd-point",
+        "Experiences-Scissors-3rd-point",
+        "Experiences-Scissors-4th-point",
       ],
     },
     {
-      title: "Web Developer intern",
-      company_name: "Bordeaux Métropole",
+      titleKey: "Experiences-BM-title",
+      company_nameKey: "Experiences-BM-company",
       icon: bordeaux,
       iconBg: "#E6DEDD",
-      date: "April 2022 - July 2022",
+      dateKey: "Experiences-BM-date",
       points: [
-        "Helping in the development of a web application to simplify the integration and supervision of different applications within the metropolis.",
-        "Developing and maintaining a web application using Vue.js (Vue3) and other related technologies such as Django framework.",
-        "Programming with Python, HTML, CSS, Javascript languages.",
-        "Collaborating with integration and supervision service teams.",
-        "Implementing responsive design and ensuring the integrity of the recovered data.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Experiences-BM-1st-point",
+        "Experiences-BM-2nd-point",
+        "Experiences-BM-3rd-point",
+        "Experiences-BM-4th-point",
+        "Experiences-BM-5th-point",
+        "Experiences-BM-6th-point",
       ],
     },
     {
-      title: "Production assistant",
-      company_name: "SARL Kalivitis",
+      titleKey: "Experiences-Kalivitis-title",
+      company_nameKey: "Experiences-Kalivitis-company",
       icon: kalivitis,
       iconBg: "#383E56",
-      date: "July 2021 - Aug 2021",
+      dateKey: "Experiences-Kalivitis-date",
       points: [
-        "Helping the wine company to manage all the events such as bottling, container filling, etc.",
-        "Preparing the orders.",
-        "Making trips by car to supervise some orders prepartion at our partners winery.",
-        "Proposing new ideas to help the company in the future by working on their organization for example.",
+        "Experiences-Kalivitis-1st-point",
+        "Experiences-Kalivitis-2nd-point",
+        "Experiences-Kalivitis-3rd-point",
+        "Experiences-Kalivitis-4th-point",
       ],
     },
   ];
   
   const testimonials = [
     {
-      testimonial:
-        "Pierre developed a talent for understanding what a game is all about. Either technically, humanly, financially or from a game design point of view. I have complete confidence in him for the position of video game developer or the position of IT engineer.",
+      testimonialKey:
+        "Testimonials-CurvatureGames-content",
+      name: "Dennis Briddigkeit",
+      designationKey: "Testimonials-CurvatureGames-designation",
+      companyKey: "Testimonials-CurvatureGames-company",
+      image: curvaturegames,
+    },
+    {
+      testimonialKey:
+        "Testimonials-Scissors-content",
       name: "Benjamin Coudannes",
-      designation: "CTO",
-      company: "Scissors In The Plug",
+      designationKey: "Testimonials-Scissors-designation",
+      companyKey: "Testimonials-Scissors-company",
       image: sitp,
     },
     {
-      testimonial:
-        "Serious, punctual and endowed with a team spirit facilitating his integration within the team, these qualities testify to his voluntary attitude and allow him to adopt new working methods with ease.",
+      testimonialKey:
+        "Testimonials-BM-content",
       name: "Olivier Delbosc",
-      designation: "Integration Engineer",
-      company: "Bordeaux Métropole",
+      designationKey: "Testimonials-BM-designation",
+      companyKey: "Testimonials-BM-company",
       image: bordeaux,
     },
   ];
   
   const projects = [
     {
+      name: "Daimon",
+      descriptionKey:
+        "Projects-Daimon-description",
+      tags: [
+        {
+          name: "Unity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "2D Top down",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: daimon,
+      icon : github,
+      source_code_link: "https://github.com/samuellllllllllll/Daimon/tree/V0.1",
+      demo_link: "https://saizucorp.itch.io/daimon",
+      demo_link_text: "Projects-Test-Btn"
+    },
+    {
+      name: "Virtual Lab",
+      descriptionKey:
+        "Projects-VirtualLab-description",
+      tags: [
+        {
+          name: "Unity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C#",
+          color: "green-text-gradient",
+        },
+        {
+          name: "VR",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: VirtualLab,
+    },
+    {
       name: "Portfolio website",
-      description:
-        "A website working as a portfolio to show my skills in web development as well as video game development with some 3D models integration with Three JS.",
+      descriptionKey:
+        "Projects-Portfolio-description",
       tags: [
         {
           name: "Vite",
@@ -237,31 +311,9 @@ import {
       source_code_link: "https://github.com/Ev0gs/Portfolio",
     },
     {
-      name: "Daimonion",
-      description:
-        "2D narrative RPG video game project, strongly inspired by Undertale by Toby Fox, in production on Unity.",
-      tags: [
-        {
-          name: "Unity",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "C#",
-          color: "green-text-gradient",
-        },
-        {
-          name: "2D Top down",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: daimonion,
-      icon : github,
-      source_code_link: "https://github.com/GameDevsTeam/Daimonion_Project",
-    },
-    {
       name: "ArchiViz VR",
-      description:
-        "Realistic architectural visualization project in virtual reality developed on Unreal Engine 5.1 for Meta Quest 2 during my internship at Scissors In The Plug.",
+      descriptionKey:
+        "Projects-ArchiViz-description",
       tags: [
         {
           name: "UE5.1",
@@ -282,8 +334,8 @@ import {
     },
     {
       name: "Will.exe",
-      description:
-        "Horrific narrative puzzle game project in collaboration with a narrative designer, developed on Unity. In this game the character will realize little by little he is controlled by the player and will try to break the 4th wall.",
+      descriptionKey:
+        "Projects-Will-description",
       tags: [
         {
           name: "Unity",
@@ -304,8 +356,8 @@ import {
     },
     {
       name: "La Grosse Bertha",
-      description:
-        "2D multiplayer video game based on a tower defense gameplay where the main goal is to destroy the opponent's cannon 'Grosse Bertha' with our own while gaining part of the battlefield little by little.",
+      descriptionKey:
+        "Projects-LaGrosseBertha-description",
       tags: [
         {
           name: "Unity",
@@ -326,8 +378,8 @@ import {
     },
     {
       name: "Protech Securité",
-      description:
-        "3D object demonstrator for the bulletproof carpentry company ProTech Securité which wanted to be able to visualize their new product and present it on a tablet to future customers.",
+      descriptionKey:
+        "Projects-ProtechSecurite-description",
       tags: [
         {
           name: "Unity",
@@ -348,8 +400,8 @@ import {
     },
     {
       name: "Platformer Project",
-      description:
-        "2D platformer video game in which gameplay mechanics are based on those of a platformer where the player embodies a knight who must reach the end of the level like a game of the Mario Bros license.",
+      descriptionKey:
+        "Projects-Platformer-description",
       tags: [
         {
           name: "Unity",
@@ -370,8 +422,8 @@ import {
     },
     {
       name: "FindUX v2",
-      description:
-        "Monitoring web application based on the django framework using Python language, and on VueJS framework using HTML, CSS & Javascript. The goal of this project was to help the integration and supervision department on their mission by delivering a realtime monitoring app & automate applications integration in the metropolis of Bordeaux based on GitLab pipelines.",
+      descriptionKey:
+        "Projects-FindUXv2-description",
       tags: [
         {
           name: "Vue.js",
@@ -391,8 +443,8 @@ import {
     },
     {
       name: "Nternship",
-      description:
-        "Internship research application, such as job search websites, based on web languages (HTML, CSS, PHP, javascript) and a link to a database via the use of phpMyAdmin. The goal of this project was to help my school providing a website for students struggling to find an internship. This website contains some offers for students and they can apply to them depending on its location and what he is searching.",
+      descriptionKey:
+        "Projects-Nternship-description",
       tags: [
         {
           name: "Web fullstack",
@@ -413,8 +465,8 @@ import {
     },
     {
       name: "Inventory Manager",
-      description:
-        "Store inventory manager project based on SQL queries made with C++ on a MySQL database. The goal of this project was to provide an application to a store in order to visualise product quantities and many other aspects related to their inventory.",
+      descriptionKey:
+        "Projects-InventoryManager-description",
       tags: [
         {
           name: "Windows Form",

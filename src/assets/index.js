@@ -9,6 +9,10 @@ import gitlab from "./gitlab.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+// icons
+import france_flag from "./icons/France-flag.png";
+import uk_flag from "./icons/UnitedKingdom-flag.png";
+
 // About
 import videogamedev from "./about/VideoGameDeveloper.png";
 import vr from "./about/VR.png";
@@ -44,13 +48,15 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 // Company
+import curvaturegames from "./company/CurvatureGamesLogo.jpeg";
 import sitp from "./company/ScissorsInThePlug.png";
 import bordeaux from "./company/BordeauxMetropole.png";
 import kalivitis from "./company/Kalivitis.png";
 
 // Project
 import portfolio from "./project/Portfolio.png"
-import daimonion from "./project/Daimonion.png";
+import VirtualLab from "./project/VirtualLab.png"
+import daimon from "./project/Daimon.png";
 import archiviz from "./project/Archiviz.png";
 import will from "./project/Will.png";
 import bertha from "./project/LGB.png";
@@ -70,6 +76,8 @@ export {
   gitlab,
   menu,
   close,
+  france_flag,
+  uk_flag,
   videogamedev,
   vr,
   webdev,
@@ -98,11 +106,13 @@ export {
   tailwind,
   typescript,
   threejs,
+  curvaturegames,
   sitp,
   bordeaux,
   kalivitis,
   portfolio,
-  daimonion,
+  VirtualLab,
+  daimon,
   archiviz,
   will,
   bertha,

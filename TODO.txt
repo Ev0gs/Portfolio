@@ -12,3 +12,12 @@
 (FAIT) - Ajouter bouton linkedin
 (FAIT) - Ajouter mon CV
 (FAIT) - Ajouter Hobbies (description dans cartes)
+
+-----------------------------------------------------------------------------------------
+
++ Modifier le bouton "Resume" qui prend toute la largeur de la page
++ Modifier Resume affiché quand on clique sur le bouton
+(FAIT) - Ajouter lien vers itch.io pour Daimon
+(FAIT) - Finir les modifs sur la page
++ Changer palettes de couleur(?)
++ Traducteur de page

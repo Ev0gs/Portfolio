@@ -9,9 +9,6 @@ export default defineConfig({
     // Specify the output directory for the built files
     outDir: 'dist',
     // Copy the locales folder from the public directory to the build output directory
-    assets: {
-      // Ensure that the locales folder gets copied to the output directory
-      include: ['locales/**'],
-    },
+    assetsDir: '.',
   },
 })

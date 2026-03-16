@@ -82,13 +82,13 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>{t('Contact.')}</h3>
         <p className={styles.sectionSubText}>{t('Networks')}</p>
         <a href="https://www.linkedin.com/in/pierre-latorse-968242171/" target="_blank">
-          <button class="flex items-center justify-center bg-white hover:bg-slate-300 text-white font-bold py-2 px-4 rounded mt-5">
-            <img src="linkedin.png" alt="Image du bouton" class="w-7 h-7" />
+          <button className="flex items-center justify-center bg-white hover:bg-slate-300 text-white font-bold py-2 px-4 rounded mt-5">
+            <img src="linkedin.png" alt="Image du bouton" className="w-7 h-7" />
           </button>
         </a>
-        <hr class="border-t border-gray-600 mt-10 mb-10"></hr>
+        <hr className="border-t border-gray-600 mt-10 mb-10"></hr>
         <p className={styles.sectionSubText}>{t('Get in touch')}</p>
-        <form0
+        <form
           ref={formRef}
           onSubmit={handleSubmit}
           className='mt-10 flex flex-col gap-8'
@@ -133,7 +133,7 @@ const Contact = () => {
           >
             {loading ? t("Send-Btn-Text-Sending") : t("Send-Btn-Text")}
           </button>
-        </form0>
+        </form>
       </motion.div>
 
       <motion.div

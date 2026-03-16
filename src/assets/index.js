@@ -39,19 +39,24 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import kubernetes from "./tech/kubernetes.png";
+import mongodb from "./tech/mongodb_thumbnail.png";
+import nextjs from "./tech/NextJS.png";
+import postgresql from "./tech/postgresql_elephant.svg";
 
 // Company
 import curvaturegames from "./company/CurvatureGamesLogo.jpeg";
 import sitp from "./company/ScissorsInThePlug.png";
 import bordeaux from "./company/BordeauxMetropole.png";
 import kalivitis from "./company/Kalivitis.png";
+import pierrelatorse from "./company/PierreLatorse.png";
+import kapsloc from "./company/Kapsloc.png";
 
 // Project
 import portfolio from "./project/Portfolio.png"
@@ -65,6 +70,8 @@ import platformer from "./project/Platformer.png";
 import findux from "./project/Findux.png";
 import nternship from "./project/Nternship.png";
 import inventory from "./project/InventoryManager.png";
+import eokko from "./project/Eokko.png";
+import timetoplay from "./project/TimeToPlay.png";
 
 export {
   logo,
@@ -106,10 +113,15 @@ export {
   tailwind,
   typescript,
   threejs,
+  kubernetes,
+  nextjs,
+  postgresql,
   curvaturegames,
   sitp,
   bordeaux,
   kalivitis,
+  kapsloc,
+  pierrelatorse,
   portfolio,
   VirtualLab,
   daimon,
@@ -121,4 +133,6 @@ export {
   findux,
   nternship,
   inventory,
+  eokko,
+  timetoplay,
 };

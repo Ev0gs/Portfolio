@@ -87,7 +87,7 @@ const About = () => {
 
       <motion.div variants={textVariant()}>
         <a href="CV.pdf" target="_blank">
-          <button class="flex items-center justify-center bg-violet-800 hover:bg-violet-950 text-white font-bold py-2 px-4 rounded mt-5">
+          <button className="flex items-center justify-center bg-violet-800 hover:bg-violet-950 text-white font-bold py-2 px-4 rounded mt-5">
             <p>{t('resume-btn')}</p>
           </button>
         </a>
@@ -95,7 +95,7 @@ const About = () => {
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} t={t} />
+          <ServiceCard key={service.titleKey} index={index} {...service} t={t} />
         ))}
       </div>
       
@@ -112,7 +112,7 @@ const About = () => {
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {hobbies.map((hobbie, index) => (
-          <HobbiesCard key={hobbie.title} index={index} {...hobbie} t={t} />
+          <HobbiesCard key={hobbie.titleKey} index={index} {...hobbie} t={t} />
         ))}
       </div>
     </>

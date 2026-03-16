@@ -14,7 +14,7 @@
     "hero-subtext-2nd-part": "VR solutions, and web applications",
     
     "overview": "Overview.",
-    "about": "I am a French student in computer science at CESI Bordeaux, and a skilled video game developer with experience in 2 of the most used engines : Unity and Unreal Engine 5. I am also a huge fan of programming languages such as C, C#, C++, as well as creating websites like this one with the help of many frameworks. I am a quick learner and often work on my missions by team to create efficient, scalable, and user-friendly games, as well as making solutions that solve real-world problems. Let's work together to create innovative and memorable solutions for users !",
+    "about": "Freshly graduated from CESI Bordeaux in September 2025, I've developed my skills in both development and project management. Passionate about computer science and video games since childhood, my dream is to join a triple A video game development studio. I've taken part in numerous concrete projects through my professional experiences, and more recently, a friend and I have embarked on creating our own 2D game inspired by Undertale, Deltarune and Mario & Luigi. If you're interested in a passionate and curious engineer, feel free to contact me.",
     "resume-btn": "See my Resume here !",
     
     "Services-GameDev":"Game Developer",
@@ -31,6 +31,22 @@
     "Hobbies-Sports-title":"Sports",
     "Hobbies-Sports-content":"I practiced Fencing and Rifle Shooting for 6 years each at a national level. Since 2020, I practice boulder climbing.",
     
+    "Experiences-Freelance-title":"Freelance",
+    "Experiences-Freelance-company":"Pierre Latorse, France",
+    "Experiences-Freelance-date":"Oct 2025 - March 2026",
+    "Experiences-Freelance-1st-point":"Client relations and project management.",
+    "Experiences-Freelance-2nd-point":"Development of web and mobile solutions.",
+    "Experiences-Freelance-3rd-point":"Development of project management solutions.",
+    "Experiences-Freelance-4th-point":"Development of multimedia solutions.",
+    
+    "Experiences-Kapsloc-title":"Project manager and developer apprentice.",
+    "Experiences-Kapsloc-company":"Kapsloc, France",
+    "Experiences-Kapsloc-date":"Sept 2024 - Sept 2025",
+    "Experiences-Kapsloc-1st-point":"Project management and development of a hypercasual mini-games hub on Unity.",
+    "Experiences-Kapsloc-2nd-point":"Collaborating with a cross-functional team including designers, product managers, and other developers to create high-quality products.",
+    "Experiences-Kapsloc-3rd-point":"Developing an ERP for various businesses.",
+    "Experiences-Kapsloc-4th-point":"Developing multimedia solutions on Unity.",
+
     "Experiences-CurvatureGames-title":"VR Game Developer Intern",
     "Experiences-CurvatureGames-company":"Curvature Games, Germany",
     "Experiences-CurvatureGames-date":"Sept 2023 - Feb 2024",
@@ -77,6 +93,8 @@
     "Projects-Header-Title": "My work",
     "Projects-Header-Subtitle": "Projects.",
     "Projects-Header-Content":"Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+    "Projects-TimeToPlay-description":"A hypercasual mini-games hub developed on Unity. This product aims to centralize hypercasual mini-games in a single platform to facilitate mini-game management and offer real rewards following competitions between players.",
+    "Projects-Eokko-description":"A multi-context ERP developed on Next.js. This product aims to centralize data from multiple businesses in a single platform to facilitate business management.",
     "Projects-Daimon-description":"2D narrative RPG video game project, strongly inspired by Undertale by Toby Fox, in production on Unity.",
     "Projects-VirtualLab-description":"A Virtual Reality game about laboratory experiences made for meta quest 2 and 3 on Unity. In this game, you will have to complete quests following the narrator instructions.",
     "Projects-Portfolio-description":"A website working as a portfolio to show my skills in web development as well as video game development with some 3D models integration with Three JS.",

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close, france_flag, uk_flag } from '../assets';
+import { logo, menu, close } from '../assets';
 
 import { useTranslation } from 'react-i18next';
 
@@ -52,7 +52,7 @@ const Navbar = () => {
           <div className='green-pink-gradient p-[1px] rounded-[20px]'>
             <select className='rounded-[20px]' onChange={(e) => changeLanguage(e.target.value)}>
               <option value='en'>{t('NavLinks-Translator-English')}</option>
-              <option value='fr'>{t('NavLinks-Translator-French')}<img src={france_flag} alt="Français"/></option>
+              <option value='fr'>{t('NavLinks-Translator-French')}</option>
             </select>
           </div>
         </ul>

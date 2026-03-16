@@ -11,7 +11,12 @@ import {
     git,
     figma,
     docker,
+    kubernetes,
+    nextjs,
+    postgresql,
     curvaturegames,
+    pierrelatorse,
+    kapsloc,
     sitp,
     bordeaux,
     kalivitis,
@@ -43,6 +48,8 @@ import {
     climbing,
     gitlab,
     github,
+    eokko,
+    timetoplay,
   } from "../assets";
   
   // // Translation system
@@ -118,20 +125,8 @@ import {
       icon: clanguages,
     },
     {
-      name: "MySQL",
-      icon: mysql,
-    },
-    {
-      name: "HTML 5 / CSS 3 / JS",
-      icon: htmlcssjs,
-    },
-    {
       name: "Python",
       icon: python,
-    },
-    {
-      name: "Vue JS",
-      icon: vuejs,
     },
     {
       name: "React JS",
@@ -157,9 +152,51 @@ import {
       name: "docker",
       icon: docker,
     },
+    {
+      name: "kubernetes",
+      icon: kubernetes,
+    },
+    {
+      name: "mongodb",
+      icon: mongodb,
+    },
+    {
+      name: "postgresql",
+      icon: postgresql,
+    },
+    {
+      name: "nextjs",
+      icon: nextjs,
+    }
   ];
   
   const experiences = [
+    {
+      titleKey: "Experiences-Freelance-title",
+      company_nameKey: "Experiences-Freelance-company",
+      icon: pierrelatorse,
+      iconBg: "#E6DEDD",
+      dateKey: "Experiences-Freelance-date",
+      points: [
+        "Experiences-Freelance-1st-point",
+        "Experiences-Freelance-2nd-point",
+        "Experiences-Freelance-3rd-point",
+        "Experiences-Freelance-4th-point",
+      ],
+    },
+    {
+      titleKey: "Experiences-Kapsloc-title",
+      company_nameKey: "Experiences-Kapsloc-company",
+      icon: kapsloc,
+      iconBg: "#E6DEDD",
+      dateKey: "Experiences-Kapsloc-date",
+      points: [
+        "Experiences-Kapsloc-1st-point",
+        "Experiences-Kapsloc-2nd-point",
+        "Experiences-Kapsloc-3rd-point",
+        "Experiences-Kapsloc-4th-point",
+      ],
+    },
     {
       titleKey: "Experiences-CurvatureGames-title",
       company_nameKey: "Experiences-CurvatureGames-company",
@@ -244,6 +281,50 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Time To Play",
+      descriptionKey:
+        "Projects-TimeToPlay-description",
+      tags: [
+        {
+          name: "Unity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Android",
+          color: "green-text-gradient",
+        },
+        {
+          name: "iOS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "PlayFab",
+          color: "purple-text-gradient",
+        },
+      ],
+      image: timetoplay,
+    },
+    {
+      name: "Eokko",
+      descriptionKey:
+        "Projects-Eokko-description",
+      tags: [
+        {
+          name: "Next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: eokko,
+    },
     {
       name: "Daimon",
       descriptionKey:

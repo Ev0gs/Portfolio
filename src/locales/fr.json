@@ -14,7 +14,7 @@
     "hero-subtext-2nd-part": "solutions VR, et applications web",
     
     "overview": "Aperçu.",
-    "about": "Je suis un étudiant français en informatique à CESI Bordeaux, et un développeur de jeux vidéo compétent avec de l'expérience dans 2 des moteurs les plus utilisés : Unity et Unreal Engine 5. Je suis aussi un grand fan des langages de programmation tels que C, C#, C++, ainsi que de la création de sites web comme celui-ci avec l'aide de nombreux frameworks. Je suis un apprenant rapide et je travaille souvent en équipe sur mes missions pour créer des jeux efficaces, évolutifs et conviviaux, ainsi que pour créer des solutions qui résolvent des problèmes réels. Travaillons ensemble pour créer des solutions innovantes et mémorables pour les utilisateurs !",
+    "about": "Fraîchement diplômé de CESI Bordeaux en septembre 2025, j'ai développé mes compétences en développement et en gestion de projet. Passionné par l'informatique et les jeux vidéo depuis le plus jeune âge, mon rêve est d'intégrer une entreprise de développement de jeux vidéo triple A. J'ai pu prendre part à de nombreux projets concrets grâce à mes expériences professionnelles, et plus récemment, un ami et moi nous sommes lancés dans la création de notre propre jeu 2D inspiré d'Undertale, Deltarune et Mario & Luigi. Si vous êtes intéressé par un ingénieur passionné et curieux, n'hésitez pas à me contacter.",
     "resume-btn": "Voir mon CV ici !",
     
     "Services-GameDev":"Game Developer",
@@ -31,6 +31,22 @@
     "Hobbies-Sports-title":"Sports",
     "Hobbies-Sports-content":"J'ai pratiqué l'escrime et le tir à la carabine au niveau national pendant 6 ans chacun. Depuis 2020, je pratique l'escalade en bloc.",
     
+    "Experiences-Freelance-title":"Freelance",
+    "Experiences-Freelance-company":"Pierre Latorse, France",
+    "Experiences-Freelance-date":"Oct 2025 - Mars 2026",
+    "Experiences-Freelance-1st-point":"Relations client et gestion de projet.",
+    "Experiences-Freelance-2nd-point":"Développement de solutions web et mobile.",
+    "Experiences-Freelance-3rd-point":"Développement de solutions de gestion de projet.",
+    "Experiences-Freelance-4th-point":"Développement de solutions multimédias.",
+    
+    "Experiences-Kapsloc-title":"Alternant chef de projet et développeur.",
+    "Experiences-Kapsloc-company":"Kapsloc, France",
+    "Experiences-Kapsloc-date":"Sept 2024 - Sept 2025",
+    "Experiences-Kapsloc-1st-point":"Chefferie de projet et développement d'un hub de mini-jeux hypercasual sur Unity.",
+    "Experiences-Kapsloc-2nd-point":"Collaborer avec une équipe multi-fonctionnelle incluant des designers, product managers, et autres développeurs afin de créer des produits de haute qualité.",
+    "Experiences-Kapsloc-3rd-point":"Développer un ERP pour des entreprises diverses et variées.",
+    "Experiences-Kapsloc-4th-point":"Développer des solutions multimédias sous Unity.",
+
     "Experiences-CurvatureGames-title":"Stagiaire développeur de jeux en réalité virtuelle.",
     "Experiences-CurvatureGames-company":"Curvature Games, Allemagne",
     "Experiences-CurvatureGames-date":"Sept 2023 - Fév 2024",
@@ -38,6 +54,7 @@
     "Experiences-CurvatureGames-2nd-point":"Collaborer avec une équipe allemande multi-fonctionnelle incluant des designers, product managers, et autres développeurs afin de créer des produits de haute qualité.",
     "Experiences-CurvatureGames-3rd-point":"Implémenter les mécaniques de gameplay principales, prototyper et optimiser pour adapter la solution au périphérique cible via l'utilisation du Profiler.",
     "Experiences-CurvatureGames-4th-point":"Entraîner mon anglais et participer à tous les playtests du projet.",
+    
     "Experiences-Scissors-title":"Stagiaire développeur de jeux vidéo.",
     "Experiences-Scissors-company":"Scissors In The Plug, France",
     "Experiences-Scissors-date":"Jan 2023 - Avr 2023",
@@ -45,6 +62,7 @@
     "Experiences-Scissors-2nd-point":"Collaborer avec une équipe multi-fonctionnelle incluant des designers, product managers, et autres développeurs afin de créer des produits de haute qualité.",
     "Experiences-Scissors-3rd-point":"Implémenter les mécaniques de gameplay principales, et optimiser la solution pour les périphériques cible via l'utilisation du Profiler.",
     "Experiences-Scissors-4th-point":"Participer dans la phase de pré-production, production et post-production.",
+    
     "Experiences-BM-title":"Stagiaire développeur web",
     "Experiences-BM-company":"Bordeaux Métropole, France",
     "Experiences-BM-date":"Avr 2022 - Juil 2022",
@@ -54,6 +72,7 @@
     "Experiences-BM-4th-point":"Collaborer avec les équipes du service intégration et supervision.",
     "Experiences-BM-5th-point":"Implémenter des designs responsive et assurer l'intégrité des données récupérées.",
     "Experiences-BM-6th-point":"Participer aux revues de code et promouvoir des retours constructifs aux autres développeurs.",
+    
     "Experiences-Kalivitis-title":"Assistant de production",
     "Experiences-Kalivitis-company":"SARL Kalivitis, France",
     "Experiences-Kalivitis-date":"Juil 2021 - Août 2021",
@@ -77,6 +96,8 @@
     "Projects-Header-Title": "Mes travaux",
     "Projects-Header-Subtitle": "Projets.",
     "Projects-Header-Content":"Les projets suivants illustrent mes compétences et mon expérience à travers des exemples concrets de mon travail. Chaque projet est brièvement décrit avec des liens vers des dépôts de code et des démonstrations en direct. Cela reflète ma capacité à résoudre des problèmes complexes, à travailler avec différentes technologies et à gérer efficacement des projets.",
+    "Projects-TimeToPlay-description":"Un hub de mini-jeux hypercasual développé sur Unity. Ce produit a pour but de centraliser les mini-jeux hypercasual dans une seule plateforme afin de faciliter la gestion des mini-jeux. Et de proposer des récompenses réelles suite à des compétitions entre les joueurs.",
+    "Projects-Eokko-description":"Un ERP multi contexte, développé sur Next.js. Ce produit a pour but de centraliser les données de plusieurs entreprises dans une seule plateforme afin de faciliter la gestion des entreprises.",
     "Projects-Daimon-description":"Un projet de jeux vidéo au style RPG narratif aventure en 2D, fortement inspiré d'Undertale par Toby Fox, en cours de production sur Unity.",
     "Projects-VirtualLab-description":"Un jeux vidéo en réalité virtuelle qui traite d'expériences réalisées en laboratoire, pour meta quest 2 et 3 sur Unity. Dans ce jeu, vous allez devoir compléter des quêtes tout en suivant les instructions du narrateur.",
     "Projects-Portfolio-description":"Un site web servant de portfolio afin de démontrer mes compétences en développement web, ainsi que dans le dévelopemment de jeux vidéo avec des intégrations 3D à l'aide du framework Three JS.",
